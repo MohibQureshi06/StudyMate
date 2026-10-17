@@ -1,0 +1,247 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                  📚 StudyMate - Single Port (5000) Setup 📚                 ║
+║                                                                              ║
+║              Everything runs on: http://localhost:5000                      ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+✅ YOUR SETUP IS READY!
+
+The application has been configured to run on a SINGLE PORT (5000) instead of two separate ports.
+
+
+⚡ QUICK START (Choose One):
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION A: Using Batch File (Easiest)
+
+1. Open this folder in Windows Explorer
+2. Double-click: START-SINGLE-PORT.bat
+3. Wait for installation and build (5-10 minutes first time)
+4. You'll see: "✅ StudyMate is running!"
+5. Open browser to: http://localhost:5000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION B: Using Command Prompt (Manual)
+
+1. Open Command Prompt (Win+R → cmd → Enter)
+2. Run these commands:
+
+   cd "C:\Users\Mohib Qureshi\Desktop\Course cover app"
+   npm run start
+
+3. Wait for build to complete (shows: "✅ StudyMate is running!")
+4. Open: http://localhost:5000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+📊 WHAT'S INCLUDED
+
+Single localhost:5000 Server:
+  ✅ Frontend served by backend
+  ✅ API endpoints available
+  ✅ Database connected
+  ✅ Everything on one port
+
+Files Modified:
+  ✅ backend/server.js - Now serves frontend
+  ✅ frontend/src/api.js - Uses relative paths
+  ✅ package.json - New scripts added
+
+
+🌐 URLS
+
+After startup, use ONLY:
+  👉 http://localhost:5000
+
+All these work:
+  • http://localhost:5000 → Full application
+  • http://localhost:5000/api → API endpoints
+  • http://localhost:5000/api/health → Health check
+
+
+⏱️ FIRST RUN TAKES LONGER
+
+First time (5-10 minutes):
+  • Installing npm packages
+  • Building frontend (creates optimized files)
+  • Then starts server
+
+Subsequent runs (30 seconds):
+  • Everything already installed and built
+  • Server starts immediately
+
+
+🎯 STEP-BY-STEP GUIDE
+
+Step 1: Install Dependencies
+  Run: npm install
+  (This happens automatically in the batch file)
+  Wait: 2-3 minutes (first time only)
+
+Step 2: Build Frontend
+  Run: npm run build
+  (This happens automatically in the batch file)
+  Wait: 1-2 minutes (creates frontend/dist folder)
+
+Step 3: Start Server
+  Run: npm run start
+  (Or double-click START-SINGLE-PORT.bat)
+  Result: Server running on http://localhost:5000
+
+Step 4: Open Browser
+  Go to: http://localhost:5000
+  See: StudyMate welcome screen
+
+Step 5: Create Profile
+  Enter your name
+  Select courses
+  Start studying!
+
+
+📁 HOW TO FIND THE FILES
+
+In Windows Explorer:
+  C:\Users\Mohib Qureshi\Desktop\Course cover app\
+
+Files to use:
+  • START-SINGLE-PORT.bat ← Double-click to start
+  • RUN.bat ← Alternative (does same thing)
+  • SINGLE-PORT-SETUP.txt ← Detailed explanation
+
+
+🛑 HOW TO STOP
+
+While running:
+  Press Ctrl + C in the terminal
+
+The application will stop. You can start it again anytime.
+
+
+🔄 WORKFLOW
+
+First Time Setup:
+  1. Double-click START-SINGLE-PORT.bat
+  2. Wait 5-10 minutes
+  3. Open http://localhost:5000
+  4. Create profile
+  5. Done!
+
+Next Time (Any Day):
+  1. Double-click START-SINGLE-PORT.bat
+  2. Wait 30 seconds
+  3. Open http://localhost:5000
+  4. Everything preserved
+  5. Done!
+
+
+📝 COMMANDS REFERENCE
+
+Quick reference (if using command prompt):
+
+Install dependencies (first time):
+  npm install
+
+Build frontend:
+  npm run build
+
+Start on single port:
+  npm run start
+
+Development mode (separate ports):
+  npm run dev
+
+Build and check:
+  npm run build && npm run start
+
+
+💡 TIPS
+
+• Keep the terminal window open while studying
+• You can minimize the terminal, don't close it
+• Close browser, keep terminal open - no problem
+• Restart browser anytime (app keeps running)
+• Ctrl+C in terminal stops the app
+
+
+⚙️ TECHNICAL DETAILS
+
+What Happens Behind the Scenes:
+
+1. Backend server starts on port 5000
+2. Server loads SQLite database
+3. Server initializes all routes
+4. Server serves built frontend files from frontend/dist
+5. Browser requests go to http://localhost:5000
+6. Server routes them appropriately:
+   - /api/* → API endpoints
+   - Everything else → React frontend
+   - React handles all navigation
+
+
+🔐 SECURITY
+
+Your data:
+  ✅ Stays local (studymate.db in project folder)
+  ✅ Never sent anywhere
+  ✅ Only accessible from http://localhost:5000
+  ✅ Completely private
+
+
+📊 FEATURES
+
+All features work the same:
+  ✅ 5 profiles
+  ✅ 7 courses
+  ✅ Lecture tracking
+  ✅ Preparation percentage
+  ✅ Dashboard
+  ✅ Course workspace
+  ✅ Tasks and notes
+  ✅ Data backup/restore
+  ✅ Mobile responsive
+
+
+🆘 TROUBLESHOOTING
+
+"npm not found"
+  → Install Node.js from https://nodejs.org/
+  → Restart computer after install
+
+"Port 5000 already in use"
+  → Close other applications using port 5000
+  → Or change PORT in backend/server.js
+
+"Frontend not loading"
+  → Close browser (Ctrl+W)
+  → Run: npm run build
+  → Restart the batch file
+  → Open http://localhost:5000 again
+
+"Database errors"
+  → Delete studymate.db file
+  → Restart application (new database created)
+
+"Still not working?"
+  → Check SINGLE-PORT-SETUP.txt for more details
+  → Or restart your computer
+
+
+✨ YOU'RE ALL SET!
+
+Everything is ready to use on ONE PORT (5000).
+
+Next step:
+  👉 Double-click: START-SINGLE-PORT.bat
+
+Then:
+  👉 Open: http://localhost:5000
+
+Happy studying! 📚
+
+════════════════════════════════════════════════════════════════════════════════

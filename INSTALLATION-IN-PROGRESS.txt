@@ -1,0 +1,61 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                    🚀 INSTALLATION IN PROGRESS 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The npm install is currently running.
+
+PLEASE WAIT 2-3 MINUTES...
+
+The batch file (RUN.bat) is automatically:
+1. Installing all dependencies
+2. Starting the backend server
+3. Starting the frontend server
+4. Preparing the application
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT TO EXPECT:
+
+✅ You'll see: "Installing dependencies..."
+✅ Then: A spinning cursor (progress indicator)
+✅ Then: "npm run dev" will start
+✅ Then: You'll see messages about:
+   - "StudyMate backend running on http://localhost:5000"
+   - "VITE v5.0.0 ready in XXX ms"
+   - "Local: http://localhost:5173"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+AFTER INSTALLATION COMPLETES (2-3 minutes):
+
+1. Open your browser
+
+2. Go to: http://localhost:5173
+
+3. You should see the StudyMate welcome screen
+
+4. Create your profile and start studying!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IF SOMETHING GOES WRONG:
+
+• The terminal window will show error messages
+• Take a screenshot and share the error
+• Or check the console for what failed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DO NOT CLOSE THE TERMINAL WINDOW!
+
+The terminal must stay open for the application to run.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Grab some coffee ☕ and wait for the installation to finish...
+
+Then visit: http://localhost:5173
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

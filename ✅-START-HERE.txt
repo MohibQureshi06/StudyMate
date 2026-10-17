@@ -1,0 +1,149 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                          ✅ START HERE ✅                                   ║
+║                                                                              ║
+║                    StudyMate - Single Port Edition                          ║
+║                      Everything on localhost:5000                           ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🎯 YOUR APPLICATION IS READY!
+
+I've reconfigured StudyMate to run on a SINGLE PORT (5000) as requested.
+No more separate ports for frontend and backend!
+
+
+⚡ TO START RIGHT NOW:
+
+Open Windows Explorer and navigate to:
+  C:\Users\Mohib Qureshi\Desktop\Course cover app\
+
+Then DOUBLE-CLICK:
+  👉 START-SINGLE-PORT.bat
+
+That's it! The application will:
+  1. Install dependencies (first time: 5 minutes)
+  2. Build the frontend
+  3. Start the server
+  4. Show: http://localhost:5000
+
+
+🌐 THEN OPEN YOUR BROWSER:
+
+Go to: http://localhost:5000
+
+You'll see the StudyMate welcome screen!
+
+
+✨ WHAT CHANGED
+
+Before (Two Separate Ports):
+  Frontend: localhost:5173
+  Backend: localhost:5000
+  Problem: Two ports to manage
+
+After (Single Port):
+  Everything: localhost:5000
+  Simpler: One port to remember
+  Production: Ready to deploy
+
+
+📚 WHAT YOU GET
+
+✅ Profiles (up to 5)
+✅ Course selection (7 courses)
+✅ Lecture tracking
+✅ Preparation percentage
+✅ Dashboard with countdown
+✅ Course workspace (5 sections)
+✅ Notes and tasks
+✅ Data backup/restore
+✅ All on one localhost:5000
+
+
+🚀 QUICK STEPS
+
+1. Double-click: START-SINGLE-PORT.bat
+
+2. Wait for: "✅ StudyMate is running!"
+
+3. Open browser: http://localhost:5000
+
+4. Create profile
+
+5. Select courses
+
+6. Start studying!
+
+
+📝 FILES YOU NEED
+
+In the project folder:
+
+  START-SINGLE-PORT.bat      ← Double-click to start
+  HOW-TO-RUN-SINGLE-PORT.txt ← Detailed instructions
+  SINGLE-PORT-SETUP.txt      ← Technical details
+
+Other useful files:
+  
+  README.md                  ← Complete documentation
+  QUICK-START.md             ← Feature guide
+  TESTING.md                 ← Verification guide
+
+
+⏱️ TIME ESTIMATE
+
+First time:
+  5-10 minutes (installing + building)
+
+Every time after:
+  30 seconds (app starts immediately)
+
+
+💻 SYSTEM REQUIREMENTS
+
+✅ Windows with Command Prompt
+✅ Node.js 18+ (get from nodejs.org)
+✅ 5GB free disk space
+✅ Modern web browser
+
+
+🔄 IF SOMETHING GOES WRONG
+
+Stop the application:
+  Press Ctrl + C in the terminal
+
+Delete cache and database:
+  Delete studymate.db file
+
+Start fresh:
+  Double-click START-SINGLE-PORT.bat again
+
+
+📞 NEED HELP?
+
+Read:
+  1. HOW-TO-RUN-SINGLE-PORT.txt (main guide)
+  2. SINGLE-PORT-SETUP.txt (technical)
+  3. README.md (complete docs)
+
+
+🎉 YOU'RE ALL DONE!
+
+Everything is set up and ready to use.
+
+Next step:
+  👉 Double-click START-SINGLE-PORT.bat
+
+Then:
+  👉 Open http://localhost:5000
+
+That's it!
+
+
+════════════════════════════════════════════════════════════════════════════════
+
+                    Happy studying! Good luck with your exams! 📚
+
+════════════════════════════════════════════════════════════════════════════════
